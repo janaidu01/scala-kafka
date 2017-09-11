@@ -110,6 +110,7 @@ case class KafkaProducer(
       case e: Exception =>
         e.printStackTrace
         System.exit(1)
+      // **
     }        
   }
 }
